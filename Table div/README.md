@@ -9,3 +9,6 @@
 5) The modal. You can show any size of image in the modal. It's responsive for different images. And it is not only horizontally align center but also vertically align center without JavaScript. Also, the modal itself is horizontally/vertically aligned center too.
 
 6) I tested my code on: Firefox, Safari, Chrome, Edge and IE11.
+
+It is available here:
+http://192.155.81.135/Table_div/index.html
