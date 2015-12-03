@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel=icon href="img/pizza.png">
+    <title>Connct_Four_By_Dongjie_Zhang</title>
+    <style>
+      html{
+        height: 100%;
+      }
+      body {
+        height: 100% !important;
+        background: ;
+        font-family: 'Goudy Old Style', Garamond, 'Big Caslon', 'Times New Roman', serif;
+        color: #555;
+      }
+      .center_div{
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+      }
+      .col{
+        float: left;
+      }
+      .cell{
+        background: #eeeeee;
+        border: 1px dashed #aaaaaa;
+        box-sizing: border-box;
+        background-color: transparent;
+      }
+      .img_responsive{
+        max-width: 100%;
+        height: auto;
+        display:block
+      }
+    </style>
+  </head>
+  <body>
+  	<div>
+    	<p style="font-weight:bold;">Connect Four Game Rules:</p>
+    	<ul>
+    		<li>Point the cursor over the row you wish to drop your piece in. </li>
+    		<li>Left click to drop your piece</li>
+    		<li>When you can connect four pieces vertically, horizontally or diagonally you win</li>
+    	</ul>
+    </div>
+    <div id="animation" class="center_div"></div>
+    <div id="flag" class="center_div"></div>
+    <div id="board" class="center_div"></div>
+    <div id='msg' style="text-align:center; font-size:28px; font-weight:bold; margin-top:12px;">
+      <img id='player_img' style='align:middle; width:30px; height:30px;' src='img/yelp_0.png'/>
+      <span id='info'>player's turn!</span><br>
+      <a id='reset' style='visibility:hidden; margin-top:8px; color:#FF4040;' href="" onclick="location.reload();">
+        <img style='align:middle; width:40px; height:40px;' src='img/reset.png'/>
+      </a>
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="js/core.js"></script>
+  </body>
+</html>
